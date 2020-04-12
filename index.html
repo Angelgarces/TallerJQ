@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Taller JQuery</title>
+        <link rel="stylesheet" href="css/estilo.css" type="text/css" />
+    </head>
+<body>
+    <header>
+        <h1>**Test De Ciencias Sociales**</h1>
+    </header>
+    <div id="contenido">
+        <section id="login">       
+            <h2>Formulario de Acceso</h2>
+            <form>
+                <label for="usuario">Nombres y Apellidos</label>
+                <input type="text" id="usuario" />
+                <input type="button" value="Ingresar" id="btn-ingresar" />
+            </form>       
+        </section>
+        <section id="test">            
+            <div id="info">
+                <div id="info-usuario">Bienvenido <span id="nombre"></span></div>
+                <div id="info-pregunta">Pregunta <span id="info-numero">1 de 10</span> - Seleccion multiple con unica respuesta</div>
+            </div>    
+            <div id="tablero">
+                <div id="preguntas">
+                    <div id="p-1">
+                        <h2>Como se llama el que elabora el pan??</h2>
+                        
+                        <ul>
+                            <li><input type="radio" name="r-1" value="a" id="r-1-1"> Panadero</li>
+                            <li><input type="radio" name="r-1" value="b" id="r-1-2"> Mesero</li>
+                            <li><input type="radio" name="r-1" value="c" id="r-1-3"> Carpintero</li>
+                            <li><input type="radio" name="r-1" value="d" id="r-1-4"> Profesor</li>
+                        </ul>
+                        
+                        <p>
+                            <input type="button" value="CALIFICAR" id="btn-calificar-1" />
+                        </p>
+                    </div>
+                    <div id="p-2">
+                        <h2>Como se llama el que trabaja en la agricultura??</h2>
+                        
+                        <ul>
+                            <li><input type="radio" name="r-2" value="a" id="r-2-1"> Vendedor</li>
+                            <li><input type="radio" name="r-2" value="b" id="r-2-2"> Agricultor</li>
+                            <li><input type="radio" name="r-2" value="c" id="r-2-3"> Cajero</li>
+                            <li><input type="radio" name="r-2" value="d" id="r-2-4"> Director</li>
+                        </ul>
+                      
+                        <p>
+                            <input type="button" value="CALIFICAR" id="btn-calificar-2" />
+                        </p>
+                    </div>
+                    <div id="p-3">
+                        <h2>Como se llama el que trabaja en la ganaderia??</h2>
+             
+                            <ul>
+                                <li><input type="radio" name="r-3" value="a" id="r-3-1"> Bi&oacute;logo</li>
+                                <li><input type="radio" name="r-3" value="b" id="r-3-2"> Abogado</li>
+                                <li><input type="radio" name="r-3" value="c" id="r-3-3"> Agricultor</li>
+                                <li><input type="radio" name="r-3" value="d" id="r-3-4"> Ganadero</li>
+                            </ul>
+             
+                        <p>
+                            <input type="button" value="CALIFICAR" id="btn-calificar-3" />
+                        </p>
+                    </div>
+                    <div id="p-4">
+                        <h2>Como se llama el que elabora una mesa??</h2>
+                    
+                        <ul>
+                            <li><input type="radio" name="r-4" value="a" id="r-4-1"> Farmac&eacute;utico</li>
+                            <li><input type="radio" name="r-4" value="b" id="r-4-2"> Polic&iacute;a</li>
+                            <li><input type="radio" name="r-4" value="c" id="r-4-3"> Enfermero</li>
+                            <li><input type="radio" name="r-4" value="d" id="r-4-4"> Carpintero</li>
+                        </ul>
+              
+                        <p>
+                            <input type="button" value="CALIFICAR" id="btn-calificar-4" />
+                        </p>
+                    </div>
+                    <div id="p-5">
+                        <h2>Como se llama el que vende Zapato??</h2>
+                        
+                        <ul>
+                            <li><input type="radio" name="r-5" value="a" id="r-5-1">Vendedor</li>
+                            <li><input type="radio" name="r-5" value="b" id="r-5-2"> Mesero</li>
+                            <li><input type="radio" name="r-5" value="c" id="r-5-3"> Doctor</li>
+                            <li><input type="radio" name="r-5" value="d" id="r-5-4"> Carpintero</li>
+                        </ul>
+               
+                        <p>
+                            <input type="button" value="CALIFICAR" id="btn-calificar-5" />
+                        </p>
+                    </div>
+                    <div id="p-6">
+                        <h2>Como se llama el que elabora medicamentos??</h2>
+       
+                        <ul>
+                            <li><input type="radio" name="r-6" value="a" id="r-6-1"> Cajero</li>
+                            <li><input type="radio" name="r-6" value="b" id="r-6-2"> Farmac&eacute;utico</li>
+                            <li><input type="radio" name="r-6" value="c" id="r-6-3"> Obrero</li>
+                            <li><input type="radio" name="r-6" value="d" id="r-6-4"> Todas las anteriores</li>
+                        </ul>
+             
+                        <p>
+                            <input type="button" value="CALIFICAR" id="btn-calificar-6" />
+                        </p>
+                    </div>
+                    <div id="p-7">
+                        <h2>Como se llama el que construye casas??</h2>
+            
+                        <ul>
+                            <li><input type="radio" name="r-7" value="a" id="r-7-1"> Obrero</li>
+                            <li><input type="radio" name="r-7" value="b" id="r-7-2"> Ingeniero</li>
+                            <li><input type="radio" name="r-7" value="c" id="r-7-3"> Director</li>
+                            <li><input type="radio" name="r-7" value="d" id="r-7-4"> Todas las anteriores</li>
+                        </ul>
+               
+                        <p>
+                            <input type="button" value="CALIFICAR" id="btn-calificar-7" />
+                        </p>
+                    </div>
+                    <div id="p-8">
+                        <h2>Como se llama el que estudia??</h2>
+              
+                        <ul>
+                            <li><input type="radio" name="r-8" value="a" id="r-8-1"> Abogado</li>
+                            <li><input type="radio" name="r-8" value="b" id="r-8-2"> Obrero</li>
+                            <li><input type="radio" name="r-8" value="c" id="r-8-3"> Estudiante</li>
+                            <li><input type="radio" name="r-8" value="d" id="r-8-4"> Profesor</li>
+                        </ul>
+             
+                        <p>
+                            <input type="button" value="CALIFICAR" id="btn-calificar-8" />
+                        </p>
+                    </div>
+                    <div id="p-9">
+                        <h2>Como se llama el que dirije??</h2>
+
+                        <ul>
+                            <li><input type="radio" name="r-9" value="a" id="r-9-1"> Tecnico</li>
+                            <li><input type="radio" name="r-9" value="b" id="r-9-2"> Profesor</li>
+                            <li><input type="radio" name="r-9" value="c" id="r-9-3"> Director</li>
+                            <li><input type="radio" name="r-9" value="d" id="r-9-4"> Todas las anteriores</li>
+                        </ul>
+                   
+                        <p>
+                            <input type="button" value="CALIFICAR" id="btn-calificar-9" />
+                        </p>
+                    </div>
+                    <div id="p-10">
+                        <h2>Como se llama el que Enseña??</h2>
+
+                        <ul>
+                            <li><input type="radio" name="r-10" value="a" id="r-10-1"> Tecnico</li>
+                            <li><input type="radio" name="r-10" value="b" id="r-10-2"> Profesor</li>
+                            <li><input type="radio" name="r-10" value="c" id="r-10-3"> Director</li>
+                            <li><input type="radio" name="r-10" value="d" id="r-10-4"> Todas las anteriores</li>
+                        </ul>
+                   
+                        <p>
+                            <input type="button" value="CALIFICAR" id="btn-calificar-10" />
+                        </p>
+                    </div>
+                </div>
+                <div id="panel">
+                    <div id="botones">
+                        <p>
+                            <span id="b-1">1</span>
+                            <span id="b-2">2</span>
+                            <span id="b-3">3</span>
+                            <span id="b-10">10</span>
+                        </p>
+                        <p>
+                            <span id="b-4">4</span>
+                            <span id="b-5">5</span>
+                            <span id="b-6">6</span>
+                        </p>
+                        <p>
+                            <span id="b-7">7</span>
+                            <span id="b-8">8</span>
+                            <span id="b-9">9</span>
+
+                        </p>
+                    </div>
+                    <div id="datos">
+                        Puntaje: <span id="puntos">0</span>
+                    </div>                 
+                </div>
+            </div>
+            <div class="progreso">
+                <div class="myprogreso"><div id="label"></div>
+            </div>
+        </section>
+
+    </div>
+    <footer>
+        <p>
+            <h3>Todos los derechos reservados @angelgarces</h3>
+        </p>
+    </footer>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/funcion.js"></script>
+</body>
+</html>
